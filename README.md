@@ -23,7 +23,7 @@ To create your table, use the code in the file create_table_total_run_command.sq
 
 ## Create the function to save your data into your table
 
-To create this function, use the code in the file [create_function_collect_total_run_commands.sql](/db_stat_statements/create_funtion_collect_total_run_commands.sql)
+To create this function, use the code in the file [create_function_collect_total_run_commands.sql](/create_funtion_collect_total_run_commands.sql)
 
 ## Create the function to show your hourly statistical data
 
