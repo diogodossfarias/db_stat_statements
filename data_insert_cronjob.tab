@@ -1,0 +1,5 @@
+#The following cronjob runs every 30min.
+#It runs the b_mydb_ins_stats.sh script, 
+#which inserts data about the number of INSERT, DELETE, UPDATE and SELECT statements into the table total_run_commands:
+
+*/30 * * * * /mydir/b_mydb_ins_stats.sh

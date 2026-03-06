@@ -1,0 +1,5 @@
+#The following cronjob runs every hour.
+#It runs the b_mydb_query_stats,
+#which returns the number of INSERT, DELETE, UPDATE and SELECT statements run in a timespan of one hour in the database into a log file called b_mydb_query_stats.log:
+
+0 * * * * /mydir/b_mydb_query_stats.sh >> /mydir/b_mydb_query_stats.log 2>&1
