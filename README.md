@@ -29,3 +29,14 @@ To create this function, use the code in the file [create_function_collect_total
 
 To create this function, use the code in the file [create_function_show_total_run_commands.sql](https://github.com/diogodossfarias/db_stat_statements/blob/main/create_function_show_total_run_commands.sql)
 
+## Create a bash script to collect your data automatically
+
+To create a bash script to run your collect_total_run_commands() function, use the code in the file [b_mydb_ins_stats.bash](https://github.com/diogodossfarias/db_stat_statements/blob/main/b_mydb_ins_stats.bash)
+
+## Create a bash script to export your data automatically
+
+To create a bash script to run your show_total_run_commands() function, use the code in the file [b_mydb_query_stats.bash](https://github.com/diogodossfarias/db_stat_statements/blob/main/b_mydb_query_stats.bash)
+
+## Automate your data collection using a cron job
+
+## Automate you data export using a cronjob
