@@ -1,3 +1,8 @@
+/*The following function should show the number of
+SELECT, INSERT, DELETE and UPDATE statements run in the database
+in the last hour:
+*/
+
 create or replace function show_total_run_commands()
 returns table(
     inserts_last_hour bigint,
@@ -27,3 +32,6 @@ begin
       and s.collected_at < end_hour;
 end;
 $$;
+
+--you can return the data from your function the following way:
+select * from show_total_run_commands();
