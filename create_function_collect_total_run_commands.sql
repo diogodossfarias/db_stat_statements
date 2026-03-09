@@ -31,8 +31,13 @@ begin
 end;
 $$;
 
+--To run the collect_total_run_commands() function, you can run the following statement:
+
+select * from collect_total_run_commands();
+
 /*You can check if the data was correctly saved into the table,
 running the following SELECT statement:
 */
 
 select * from total_run_commands;
+
