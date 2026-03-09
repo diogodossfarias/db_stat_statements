@@ -19,13 +19,13 @@ CREATE EXTENSION pg_stat_statements;
 
 ## Create the table to save your statistical data
 
-To create your table, use the code in the file create_table_total_run_command.sql
+To create your table, use the code in the file [create_table_total_run_command.sql](https://github.com/diogodossfarias/db_stat_statements/blob/main/create_table_total_run_commands.sql)
 
 ## Create the function to save your data into your table
 
-To create this function, use the code in the file [create_function_collect_total_run_commands.sql](/create_funtion_collect_total_run_commands.sql)
+To create this function, use the code in the file [create_function_collect_total_run_commands.sql](https://github.com/diogodossfarias/db_stat_statements/blob/main/create_function_collect_total_run_commands.sql)
 
 ## Create the function to show your hourly statistical data
 
-To create this function, use the code in the file create_function_show_total_run_commands.sql
+To create this function, use the code in the file [create_function_show_total_run_commands.sql](https://github.com/diogodossfarias/db_stat_statements/blob/main/create_function_show_total_run_commands.sql)
 
