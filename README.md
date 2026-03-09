@@ -7,7 +7,7 @@ It was created using the pg_stat_statements extension, pgSQL and PL/pgSQL for a 
 
 Before creating an extension for an Azure Database for PostgreSQL flexible server instance, it is necessary to allowlist them.
 
-Search for your server in the Flexible servers Azure Database for PostgreSQL area. Click on Server parameters, search for azure.extensions through the search box, select the PG_STAT_STATEMENTS box and save it. If you want to change the extension parameters, search for pg_stat_statement through the search box, set the parameters based on what you need, and don' t forget to save everything.
+Search for your server in the Azure Database for PostgreSQL Flexible Servers area. Click on Server parameters, search for azure.extensions through the search box, select the PG_STAT_STATEMENTS box and save it. If you want to change the extension parameters, search for pg_stat_statement through the search box, set the parameters based on what you need, and don' t forget to save everything.
 
 ## Create the extension in your database
 
