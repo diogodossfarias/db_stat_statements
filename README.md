@@ -1,5 +1,5 @@
 # Database DML statements statistics collection
-This project provides a simple solution for monitoring the number of INSERT, SELECT, DELETE and UPDATE statements run in a Postgres database per hour.
+This project provides a simple solution for monitoring the number of INSERT, SELECT, DELETE and UPDATE statements run in a Postgres database on an hourly basis.
 
 It was created using the pg_stat_statements extension, pgSQL and PL/pgSQL for a Postgres database in an Azure Database for PostgreSQL flexible server instance.
 
@@ -42,3 +42,5 @@ To create a bash script to run your show_total_run_commands() function, use the 
 Use the command in the file [data_insert_cronjob.tab](https://github.com/diogodossfarias/db_stat_statements/blob/main/data_insert_cronjob.tab) to run the b_mydb_ins_stats.bash script every 30min.
 
 ## Automate you data export using a cronjob
+
+Use the command in the file [data_collection_cronjob.tab](https://github.com/diogodossfarias/db_stat_statements/blob/main/data_collection_cronjob.tab) to run the b_mydb_query_stats.bash script every 30min.
