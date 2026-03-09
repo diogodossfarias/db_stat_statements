@@ -43,4 +43,4 @@ Use the command in the file [data_insert_cronjob.tab](https://github.com/diogodo
 
 ## Automate you data export using a cronjob
 
-Use the command in the file [data_collection_cronjob.tab](https://github.com/diogodossfarias/db_stat_statements/blob/main/data_collection_cronjob.tab) to run the b_mydb_query_stats.bash script every 30min.
+Use the command in the file [data_collection_cronjob.tab](https://github.com/diogodossfarias/db_stat_statements/blob/main/data_collection_cronjob.tab) to run the b_mydb_query_stats.bash script every hour.
