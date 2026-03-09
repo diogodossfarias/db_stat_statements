@@ -33,5 +33,6 @@ begin
 end;
 $$;
 
---you can return the data from your function the following way:
+--you can run the function show_total_run_commands() using the following statement:
 select * from show_total_run_commands();
+
