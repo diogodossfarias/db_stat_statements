@@ -39,4 +39,6 @@ To create a bash script to run your show_total_run_commands() function, use the 
 
 ## Automate your data collection using a cron job
 
+Use the command in the file [data_insert_cronjob.tab](https://github.com/diogodossfarias/db_stat_statements/blob/main/data_insert_cronjob.tab) to run the b_mydb_ins_stats.bash script every 30min.
+
 ## Automate you data export using a cronjob
