@@ -1,3 +1,8 @@
+/*The following function should use the pg_stat_statements extension
+to count the number INSERT, SELECT, UPDATE and DELETE statements run in the database
+and insert them in the total_run_commands table:
+*/
+
 create or replace function collect_total_run_commands()
 returns void
 language plpgsql
@@ -25,3 +30,7 @@ begin
     values (v_total_inserts, v_total_updates, v_total_deletes, v_total_selects);
 end;
 $$;
+
+--You can check if the data was correctly saved into the table, running the following SELECT statement:
+
+select * from total_run_commands;
