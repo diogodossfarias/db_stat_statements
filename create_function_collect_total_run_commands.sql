@@ -31,6 +31,8 @@ begin
 end;
 $$;
 
---You can check if the data was correctly saved into the table, running the following SELECT statement:
+/*You can check if the data was correctly saved into the table,
+running the following SELECT statement:
+*/
 
 select * from total_run_commands;
